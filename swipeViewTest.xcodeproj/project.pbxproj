@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A90614D91AA50136005ED946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90614D81AA50136005ED946 /* AppDelegate.swift */; };
-		A90614DB1AA50136005ED946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90614DA1AA50136005ED946 /* ViewController.swift */; };
+		A90614DB1AA50136005ED946 /* ViewControllerID1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90614DA1AA50136005ED946 /* ViewControllerID1.swift */; };
 		A90614DE1AA50136005ED946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90614DC1AA50136005ED946 /* Main.storyboard */; };
 		A90614E01AA50136005ED946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90614DF1AA50136005ED946 /* Images.xcassets */; };
 		A90614E31AA50136005ED946 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90614E11AA50136005ED946 /* LaunchScreen.xib */; };
 		A90614EF1AA50136005ED946 /* swipeViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90614EE1AA50136005ED946 /* swipeViewTestTests.swift */; };
+		A90614F91AA505CC005ED946 /* ViewControllerID2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90614F81AA505CC005ED946 /* ViewControllerID2.swift */; };
+		A90614FD1AA51274005ED946 /* ViewControllerID3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90614FC1AA51274005ED946 /* ViewControllerID3.swift */; };
+		A90615011AA5CAC2005ED946 /* ViewControllerID4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90615001AA5CAC2005ED946 /* ViewControllerID4.swift */; };
+		A95150FE1AA66351009016E9 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95150FD1AA66351009016E9 /* TransitionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,17 @@
 		A90614D31AA50136005ED946 /* swipeViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swipeViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90614D71AA50136005ED946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A90614D81AA50136005ED946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A90614DA1AA50136005ED946 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A90614DA1AA50136005ED946 /* ViewControllerID1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerID1.swift; sourceTree = "<group>"; };
 		A90614DD1AA50136005ED946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A90614DF1AA50136005ED946 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A90614E21AA50136005ED946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A90614E81AA50136005ED946 /* swipeViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swipeViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90614ED1AA50136005ED946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A90614EE1AA50136005ED946 /* swipeViewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipeViewTestTests.swift; sourceTree = "<group>"; };
+		A90614F81AA505CC005ED946 /* ViewControllerID2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerID2.swift; sourceTree = "<group>"; };
+		A90614FC1AA51274005ED946 /* ViewControllerID3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerID3.swift; sourceTree = "<group>"; };
+		A90615001AA5CAC2005ED946 /* ViewControllerID4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerID4.swift; sourceTree = "<group>"; };
+		A95150FD1AA66351009016E9 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = ../TransitionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				A90614D81AA50136005ED946 /* AppDelegate.swift */,
-				A90614DA1AA50136005ED946 /* ViewController.swift */,
+				A90614DA1AA50136005ED946 /* ViewControllerID1.swift */,
+				A90614F81AA505CC005ED946 /* ViewControllerID2.swift */,
+				A90614FC1AA51274005ED946 /* ViewControllerID3.swift */,
+				A90615001AA5CAC2005ED946 /* ViewControllerID4.swift */,
 				A90614DC1AA50136005ED946 /* Main.storyboard */,
+				A95150FD1AA66351009016E9 /* TransitionManager.swift */,
 				A90614DF1AA50136005ED946 /* Images.xcassets */,
 				A90614E11AA50136005ED946 /* LaunchScreen.xib */,
 				A90614D61AA50136005ED946 /* Supporting Files */,
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90614DB1AA50136005ED946 /* ViewController.swift in Sources */,
+				A95150FE1AA66351009016E9 /* TransitionManager.swift in Sources */,
+				A90614DB1AA50136005ED946 /* ViewControllerID1.swift in Sources */,
+				A90614FD1AA51274005ED946 /* ViewControllerID3.swift in Sources */,
 				A90614D91AA50136005ED946 /* AppDelegate.swift in Sources */,
+				A90615011AA5CAC2005ED946 /* ViewControllerID4.swift in Sources */,
+				A90614F91AA505CC005ED946 /* ViewControllerID2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +423,7 @@
 				A90614F41AA50136005ED946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A90614F51AA50136005ED946 /* Build configuration list for PBXNativeTarget "swipeViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +432,7 @@
 				A90614F71AA50136005ED946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

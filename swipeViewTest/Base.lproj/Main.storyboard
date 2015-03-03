@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View ControllerID1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewControllerID1" customModule="swipeViewTest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,192 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="◉◎◎◎" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-hl-ic3">
+                                <rect key="frame" x="266" y="559" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fakten, Fakten Fakten" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lc4-oA-tqk">
+                                <rect key="frame" x="130" y="134" width="340" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Na, willst Du Dich nicht anmelden?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xr0-hK-lHm">
+                                <rect key="frame" x="166" y="256" width="268" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.68521303410000001" blue="0.1809986375" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="7lf-hl-ic3" secondAttribute="centerX" id="IE6-UY-UjG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7lf-hl-ic3" secondAttribute="bottom" constant="20" id="KJH-aW-m3x"/>
+                            <constraint firstItem="Lc4-oA-tqk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="OwZ-fB-7pK"/>
+                            <constraint firstAttribute="centerX" secondItem="Xr0-hK-lHm" secondAttribute="centerX" id="ZxG-EK-LXk"/>
+                            <constraint firstItem="Xr0-hK-lHm" firstAttribute="top" secondItem="Lc4-oA-tqk" secondAttribute="bottom" constant="80" id="h55-ey-cgZ"/>
+                            <constraint firstAttribute="centerX" secondItem="Lc4-oA-tqk" secondAttribute="centerX" id="quj-pW-n2J"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="Z9X-Rn-2pb" kind="custom" identifier="ID1" id="6hm-NM-e1Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="655" y="599"/>
+        </scene>
+        <!--View ControllerID2-->
+        <scene sceneID="fId-3a-gHC">
+            <objects>
+                <viewController id="Z9X-Rn-2pb" customClass="ViewControllerID2" customModule="swipeViewTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wws-rh-hMa"/>
+                        <viewControllerLayoutGuide type="bottom" id="T8v-qJ-oyS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gtG-px-jCf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="◉◉◎◎" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRA-jT-FX0">
+                                <rect key="frame" x="266" y="559" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fakten, Fakten Fakten" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkC-QI-tfb">
+                                <rect key="frame" x="130" y="134" width="340" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Na, willst Du Dich nicht anmelden?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81P-Oc-cZT">
+                                <rect key="frame" x="166" y="265" width="268" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.31739981909999998" green="0.45076797419999998" blue="0.78880602899999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="T8v-qJ-oyS" firstAttribute="top" secondItem="BRA-jT-FX0" secondAttribute="bottom" constant="20" id="TyH-yP-dYp"/>
+                            <constraint firstAttribute="centerX" secondItem="BRA-jT-FX0" secondAttribute="centerX" id="awI-TW-nBv"/>
+                            <constraint firstItem="81P-Oc-cZT" firstAttribute="centerX" secondItem="GkC-QI-tfb" secondAttribute="centerX" id="fyW-Be-T0g"/>
+                            <constraint firstAttribute="centerX" secondItem="GkC-QI-tfb" secondAttribute="centerX" id="iNd-PY-9JY"/>
+                            <constraint firstItem="GkC-QI-tfb" firstAttribute="top" secondItem="Wws-rh-hMa" secondAttribute="bottom" constant="114" id="obV-gY-Q9W"/>
+                            <constraint firstItem="81P-Oc-cZT" firstAttribute="top" secondItem="GkC-QI-tfb" secondAttribute="bottom" constant="89" id="yFh-3O-9PW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="IH9-hQ-IF1" kind="custom" identifier="ID2" id="aiM-wQ-dFP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3jb-fc-QJe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1388" y="606"/>
+        </scene>
+        <!--View ControllerID3-->
+        <scene sceneID="u5b-qv-Wns">
+            <objects>
+                <viewController id="IH9-hQ-IF1" customClass="ViewControllerID3" customModule="swipeViewTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ymL-hD-N9c"/>
+                        <viewControllerLayoutGuide type="bottom" id="soe-gN-H7R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zhe-5P-GpJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="◉◉◉◎" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cz8-5G-Ybd">
+                                <rect key="frame" x="266" y="559" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fakten, Fakten Fakten" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LwN-A8-j22">
+                                <rect key="frame" x="130" y="134" width="340" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Na, willst Du Dich nicht anmelden?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFB-XA-Ood">
+                                <rect key="frame" x="166" y="272" width="268" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15686275059999999" green="0.68235296010000002" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="soe-gN-H7R" firstAttribute="top" secondItem="cz8-5G-Ybd" secondAttribute="bottom" constant="20" id="Ia2-wm-uca"/>
+                            <constraint firstItem="bFB-XA-Ood" firstAttribute="top" secondItem="LwN-A8-j22" secondAttribute="bottom" constant="96" id="Naz-Su-aJl"/>
+                            <constraint firstAttribute="centerX" secondItem="LwN-A8-j22" secondAttribute="centerX" id="XjL-hE-OvG"/>
+                            <constraint firstAttribute="centerX" secondItem="bFB-XA-Ood" secondAttribute="centerX" id="aqT-Sc-wap"/>
+                            <constraint firstAttribute="centerX" secondItem="cz8-5G-Ybd" secondAttribute="centerX" id="fUK-Ex-GvG"/>
+                            <constraint firstItem="LwN-A8-j22" firstAttribute="top" secondItem="ymL-hD-N9c" secondAttribute="bottom" constant="114" id="p9m-Xt-Ns7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="rMJ-Yn-3aW" kind="custom" identifier="ID3" id="9Zy-yW-Eih"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2RV-at-lBu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2193" y="606"/>
+        </scene>
+        <!--View ControllerID4-->
+        <scene sceneID="Udg-9v-Zxf">
+            <objects>
+                <viewController id="rMJ-Yn-3aW" customClass="ViewControllerID4" customModule="swipeViewTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vP0-M3-7JT"/>
+                        <viewControllerLayoutGuide type="bottom" id="f4M-rs-z8n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5uQ-U1-FrU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="◉◉◉◉" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWJ-uH-np7">
+                                <rect key="frame" x="266" y="559" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fakten, Fakten Fakten" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiP-EH-IeO">
+                                <rect key="frame" x="130" y="134" width="340" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Na, willst Du Dich nicht anmelden?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2x-jh-Vru">
+                                <rect key="frame" x="166" y="256" width="268" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.63582473993301392" green="0.25442587725083543" blue="0.15392323568288746" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="g2x-jh-Vru" secondAttribute="centerX" id="JZv-Kv-WqO"/>
+                            <constraint firstAttribute="centerX" secondItem="IWJ-uH-np7" secondAttribute="centerX" id="QYM-51-ALn"/>
+                            <constraint firstItem="f4M-rs-z8n" firstAttribute="top" secondItem="IWJ-uH-np7" secondAttribute="bottom" constant="20" id="bbo-5l-UDN"/>
+                            <constraint firstItem="g2x-jh-Vru" firstAttribute="top" secondItem="WiP-EH-IeO" secondAttribute="bottom" constant="80" id="bjE-JI-i6z"/>
+                            <constraint firstItem="WiP-EH-IeO" firstAttribute="top" secondItem="vP0-M3-7JT" secondAttribute="bottom" constant="114" id="lAt-rG-p0O"/>
+                            <constraint firstAttribute="centerX" secondItem="WiP-EH-IeO" secondAttribute="centerX" id="mYT-Hi-8zN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="custom" identifier="ID4" id="7T7-fi-jZF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eGy-Uh-awD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3015" y="606"/>
         </scene>
     </scenes>
 </document>
