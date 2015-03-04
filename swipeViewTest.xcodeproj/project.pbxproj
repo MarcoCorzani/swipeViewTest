@@ -17,6 +17,7 @@
 		A90614FD1AA51274005ED946 /* ViewControllerID3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90614FC1AA51274005ED946 /* ViewControllerID3.swift */; };
 		A90615011AA5CAC2005ED946 /* ViewControllerID4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90615001AA5CAC2005ED946 /* ViewControllerID4.swift */; };
 		A95150FE1AA66351009016E9 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95150FD1AA66351009016E9 /* TransitionManager.swift */; };
+		A95151021AA67F10009016E9 /* robby.png in Resources */ = {isa = PBXBuildFile; fileRef = A95151011AA67F10009016E9 /* robby.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A90614FC1AA51274005ED946 /* ViewControllerID3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerID3.swift; sourceTree = "<group>"; };
 		A90615001AA5CAC2005ED946 /* ViewControllerID4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerID4.swift; sourceTree = "<group>"; };
 		A95150FD1AA66351009016E9 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = ../TransitionManager.swift; sourceTree = "<group>"; };
+		A95151011AA67F10009016E9 /* robby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robby.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		A90614D61AA50136005ED946 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A95151011AA67F10009016E9 /* robby.png */,
 				A90614D71AA50136005ED946 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -206,6 +209,7 @@
 			files = (
 				A90614DE1AA50136005ED946 /* Main.storyboard in Resources */,
 				A90614E31AA50136005ED946 /* LaunchScreen.xib in Resources */,
+				A95151021AA67F10009016E9 /* robby.png in Resources */,
 				A90614E01AA50136005ED946 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
